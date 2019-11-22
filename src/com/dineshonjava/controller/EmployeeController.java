@@ -87,7 +87,7 @@ public class EmployeeController {
 			return new ModelAndView("Failure");
 		}
 	}
-	@RequestMapping(value = "/logout", method = RequestMethod.GET)
+	@RequestMapping(value = "/LoginFailure", method = RequestMethod.GET)
 	public ModelAndView logoutEmployee1(@ModelAttribute("command") LoginBean loginBean,
 			BindingResult result) {
 		return new ModelAndView("LoginFailure");
